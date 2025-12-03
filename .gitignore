@@ -1,0 +1,87 @@
+# -------------------------------
+# ROS2 / Colcon Build Artifacts
+# -------------------------------
+build/
+install/
+log/
+
+# colcon-specific
+.colcon/
+COLCON_IGNORE
+
+# -------------------------------
+# CMake
+# -------------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# venv
+venv/
+env/
+
+# -------------------------------
+# Gazebo / Ignition
+# -------------------------------
+*.world~
+*.model~
+*.dae~
+*.sdf~
+*.urdf~
+.gazebo/
+
+# Gazebo log files
+~/.gazebo/log/*
+
+# -------------------------------
+# VS Code / JetBrains IDE
+# -------------------------------
+.vscode/
+.idea/
+
+# -------------------------------
+# General
+# -------------------------------
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Model / Simulation Cache
+# -------------------------------
+*.bak
+*.tmp
+*.temp
+*.old
+
+# -------------------------------
+# ROS parameters / bag files
+# -------------------------------
+*.yaml~
+*.bag
+*.bag.active
+*.bag.tmp
+
+# -------------------------------
+# Python Packaging (if used)
+# -------------------------------
+dist/
+build/
+*.egg-info/
+
+# -------------------------------
+# Misc
+# -------------------------------
+*~
