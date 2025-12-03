@@ -35,4 +35,11 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(
+  PROGRAMS scripts/teleop.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
+
 
