@@ -26,14 +26,11 @@ endif()
 ament_package()
 
 install(
-  DIRECTORY launch
+  DIRECTORY launch worlds urdf models rviz
   DESTINATION share/${PROJECT_NAME}
 )
 
-install(
-  DIRECTORY worlds
-  DESTINATION share/${PROJECT_NAME}
-)
+
 
 install(
   PROGRAMS scripts/teleop.py
